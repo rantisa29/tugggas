@@ -1,0 +1,54 @@
+.lampu {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(12, 1fr);
+    width: max-content;
+  }
+  
+  .traffic {
+    background: #000;
+    padding: 40px 20px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    gap: 40px;
+    border-radius: 10px;
+  }
+  .bulat {
+    border-radius: 50%;
+  }
+  .hijau {
+    height: 80px;
+    width: 80px;
+    background: #03be0c88;
+    ;
+  }
+  .hijau.on {
+    background:  #07f307fa;
+  }
+  .button {
+    height: 30px;
+    width: 30px;
+    background: #3d3d3d;
+    border: none;
+    cursor: pointer;
+  }
+  .biru {
+    height: 80px;
+    width: 80px;
+    background: #2503be6c;
+    ;
+  }
+  .biru.on {
+    background:  #3a07f3fa;
+  }
+  .merah {
+    height: 80px;
+    width: 80px;
+    background: #ff0a0a7a;
+    ;
+  }
+  .merah.on {
+    background: #ff0a0a;
+  }
